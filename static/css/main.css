@@ -1,0 +1,72 @@
+.content {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack children vertically */
+    height: 100px; /* Set a height if needed */
+    margin: 20px 0; /* Space above and below */
+}
+body{
+   
+    font-family: Georgia;
+   
+    align-items: center;
+    
+}
+
+table {
+    width: 87%;
+    border-collapse: collapse; /* Ensures borders are combined */
+    align-items: center;
+    
+}
+th, td {
+    border: 1px solid black; /* Add a black border around table cells */
+    padding: 8px; /* Add padding for better spacing */
+    text-align: left; /* Align text to the left */
+    align-items: center;
+}
+th {
+    background-color: #f2f2f2; /* Light gray background for header */
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align children */
+    margin-top: 20px; /* Space above the form */
+    align-items: center;
+    justify-content: center;
+}
+
+.task-form {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Space between input elements */
+    max-width: 600px; /* Maximum width of the form */
+    width: 100%; /* Full width of the container */
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"] {
+    flex: 1; /* Allow the text input to take available space */
+    padding: 10px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    width: 80%; /* Increase width to 80% of the form's width */
+    align-items: center;
+}
+input[type="submit"] {
+    padding: 10px 20px; /* Add padding for button */
+    background-color: #000; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    align-items: center;
+}
+input[type="submit"]:hover {
+    background-color: #ccc; /* Darker green on hover */
+    align-items: center;
+}
